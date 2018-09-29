@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="test.YouTubeTest">
+        <methods>
+          <include name="youtubeTest"/>
+          <include name="closingTheExecution"/>
+          <include name="openbrowser"/>
+          <include name="openYouTube"/>
+        </methods>
+      </class> <!-- test.YouTubeTest -->
+      <class name="test.FacebookUserTest">
+        <methods>
+          <include name="openFacebook"/>
+          <include name="openbrowser"/>
+          <include name="facebbokUserTest"/>
+        </methods>
+      </class> <!-- test.FacebookUserTest -->
+      <class name="test.RegisterTest">
+        <methods>
+          <include name="registerTest"/>
+          <include name="openBrowser"/>
+          <include name="openWebpage"/>
+        </methods>
+      </class> <!-- test.RegisterTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
